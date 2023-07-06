@@ -32,6 +32,9 @@ input[type=text], select, textarea {
     padding: 20px;
   }
   /* navbar */
+  .text-primary {
+    color: #3693ff;
+}
 #navbar {
     display: flex;
     justify-content: space-between;

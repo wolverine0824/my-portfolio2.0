@@ -43,7 +43,7 @@
         }
     </script>
 </script>
-        <form action="action_page.php">
+        <form action="mailto:Logonpierce@icloud.com">
       
           <label for="fname"> Name</label>
           <input type="text" id="name" name="name" placeholder="Your name..">
@@ -57,35 +57,11 @@
               <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit"
+          <input method="post" 
+           type="submit" value="Send Email"
           onclick="sendEmail()" 
           >
-      
-        </form>
       </div>
-      <!-- <script type="text/javascript">
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "sender@email_address.com",
-                Password: "Enter your password",
-                To: 'Logonpierce@icloud.com',
-                From: document.getElementById("email"). value,
-                Subject: "New Contact Form Enquiry",
-                Body: "Name: " + document.getElementById("Name").value 
-                + "<br> Email:" + document.getElementById("Email").value 
-                + "<br> Phone no:" + document.getElementById("Phone").value 
-                + "<br> Message:" + document.getElementById("Message").value 
-            })
-                .then(function (message) {
-                    alert("mail sent successfully")
-                });
-        }
-    </script> -->
 </head>
-    <!-- <form method="post">
-        <input type="button" value="Send Email"
-               onclick="sendEmail()" />
-    </form> -->
 </body>
 </html>
